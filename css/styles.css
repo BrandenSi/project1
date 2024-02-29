@@ -36,6 +36,10 @@ h1, h2, p {
   color: white;
 }
 
+.form-content {
+  width: 30%;
+  margin-left: 20px;
+
 /* Form Placeholder Styles */
 input::placeholder {
   color: rgba(255, 255, 255, 0.8);
