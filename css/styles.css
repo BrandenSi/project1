@@ -22,7 +22,7 @@ header, section, article, form {
 }
 
 h1, h2, p {
-  color: #333;
+  color: #000; /* Darker text color */
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1, h2, p {
   width: 70%;
   margin: 0 auto;
   position: relative;
-  color: white;
+  color: #fff; /* White text color */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@ input {
 
 button {
   background-color: #4CAF50;
-  color: white;
+  color: #fff; /* White text color */
   padding: 10px;
   border: none;
   cursor: pointer;
@@ -76,6 +76,12 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+footer {
+  margin-top: auto; /* Push the footer to the bottom */
+  text-align: left; /* Align the text to the left */
+  padding: 10px 20px; /* Add some padding for better readability */
 }
 
 /* Media queries for larger screens */
