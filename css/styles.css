@@ -22,7 +22,7 @@ header, section, article, form {
 }
 
 h1, h2, p {
-  color: #000; /* Darker text color */
+  color: #000;
   text-align: center;
 }
 
@@ -35,7 +35,7 @@ h1, h2, p {
   width: 70%;
   margin: 0 auto;
   position: relative;
-  color: #fff; /* White text color */
+  color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +67,7 @@ input {
 
 button {
   background-color: #4CAF50;
-  color: #fff; /* White text color */
+  color: #fff;
   padding: 10px;
   border: none;
   cursor: pointer;
