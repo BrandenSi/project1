@@ -1,0 +1,15 @@
+/* Reset styles using Meyer's Reset */
+body, h1, h2, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Additional styles for the Form section of Normalize */
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
