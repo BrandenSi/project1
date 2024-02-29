@@ -2,18 +2,26 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("../images/palworld.jpg");
+  background-image: url("project1/images/palworld.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 header, section, article, form {
   margin: 20px;
+  width: 100%;
+  max-width: 600px;
 }
 
 h1, h2 {
   color: #333;
+  text-align: center;
 }
 
 /* Form Container Styles */
@@ -22,6 +30,8 @@ h1, h2 {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
 }
 
 form {
