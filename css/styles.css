@@ -2,7 +2,7 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url("project1/images/palworld.jpg");
+  background-image: url("../images/palworld.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,6 +14,14 @@ header, section, article, form {
 
 h1, h2 {
   color: #333;
+}
+
+/* Form Container Styles */
+.form-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
