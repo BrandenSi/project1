@@ -1,7 +1,11 @@
-/* Your unique CSS code starts here */
-
 body {
   font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('palworld.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header, section, article, form {
@@ -50,6 +54,4 @@ button:hover {
   body {
     font-size: 20px;
   }
-
-  /* Additional styles for larger screens */
 }
