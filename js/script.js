@@ -1,12 +1,12 @@
-// jQuery code to add/remove classes
-jQuery(function ($) {
-    $('html').removeClass('nojs').addClass('hasjs');
+// Function to set initial styles for input fields
+function setInitialInputStyles() {
+    const nameInput = document.getElementById("name");
+    const emailInput = document.getElementById("email");
     
-    // Click event listener for altbox
-    $("#altbox").on("click", function () {
-        $("#altbox").css("background-color", "#26b170");
-    });
-});
+    // Set text color to black for input fields
+    nameInput.style.color = "black";
+    emailInput.style.color = "black";
+}
 
 // Function to change label color for Name field
 function changeNameLabelColor() {
@@ -39,6 +39,9 @@ function submitForm() {
         alert("Please fill in both name and email fields.");
     }
 }
+
+// Call function to set initial input styles
+setInitialInputStyles();
 
 // Call functions to set initial label colors
 changeNameLabelColor();
