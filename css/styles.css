@@ -150,3 +150,10 @@ footer {
     border-bottom: 2px solid #ccc;
   }
 }
+
+@media screen and (max-width: 599px) {
+  input[type="text"],
+  input[type="email"] {
+    width: 90%;
+  }
+}
