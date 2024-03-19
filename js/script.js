@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
 
-        if (name && email) {
-            alert(`Thank you, ${name}! You have successfully signed up for the PalWorld beta test. We'll be in touch.`);
-        } else {
-            alert('Please fill in both name and email fields.');
-        }
+        alert('Form submitted!'); // Check if this message appears
+
+        // Ensure the form data is being captured correctly
+        console.log('Name:', name);
+        console.log('Email:', email);
     });
 });
