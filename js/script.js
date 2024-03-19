@@ -35,7 +35,7 @@ function submitForm() {
     const emailInput = document.getElementById("email");
     
     if (nameInput.value !== "" && emailInput.value !== "") {
-        alert("Thank you, ${name}! You have successfully signed up for the PalWorld beta test. We'll be in touch.");
+        alert("Thank you for signing up! You have successfully signed up for the PalWorld beta test. We'll be in touch.");
     } else {
         alert("Please fill in both name and email fields.");
     }
