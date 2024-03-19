@@ -4,7 +4,6 @@ jQuery(function ($) {
     
     // Click event listener for altbox
     $("#altbox").on("click", function () {
-        $("#age-verification").prop("checked", true);
         $("#altbox").css("background-color", "#26b170");
     });
 });
