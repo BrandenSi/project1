@@ -144,13 +144,12 @@ footer {
     padding: 30px;
   }
   .form-container {
-    box-shadow; 0 0 10px rgba(0, 00, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 00, 0, 0.2);
   }
   header {
     border-bottom: 2px solid #ccc;
   }
 }
-
 @media screen and (max-width: 599px) {
   input[type="text"],
   input[type="email"] {
